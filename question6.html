@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IMAGE MAPPING</title>
+    <style>
+        body {
+
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: green">MAPPING</h1>
+
+    <p>HERE, we are using mapping technique, to map a particular part of image and move
+        the contorl corresponding to that area.</p>
+
+    <p>For example, in an image, if there are bat, ball, stump etc. When you click stump
+        control should move to a file call stump.html</p>
+
+    <img src=   "https://thumbs.dreamstime.com/b/cricket-bat-ball-s…ricket-bat-ball-stumps-bails-placed-193179825.jpg" usemap="#image" height="300"> <map name="image">
+
+        <area shape="circle" coords="90,58,40,480" href="first.html" alt="CLICK HERE." target="_blank">
+        <area shape="poly" coords="10,15,60,550" href="second.html" alt="CLICK HERE." target="_blank">
+
+        <area shape="rect" coords="0,0,82,126" href="fifth.htmi" alt="CLICK HERE." target="_blank">
+</body>
+
+</html>
